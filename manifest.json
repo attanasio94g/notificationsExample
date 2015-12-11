@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Notifications Example",
+  "description": "This simple example show how to work with notifications on Chrome and Opera extension.",
+  "version": "0.1",
+
+  "permissions": [
+  "notifications"
+  ],
+
+  "icons": { "16": "icon/16.png",
+           "48": "icon/48.png",
+          "128": "icon/128.png" },
+
+  "browser_action": {
+    "default_icon": "icon/48.png",
+    "default_popup": "popup.html"
+  }
+
+}
